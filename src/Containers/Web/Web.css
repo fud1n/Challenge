@@ -1,0 +1,115 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.3fr 1.7fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Menu Main";
+    width: 100%;
+    height:100%;
+}
+.Menu { 
+  grid-area: Menu;
+  display: flex;
+  flex-direction: column;
+  border-right:2px solid #DADADA; ;
+
+ }
+.Main { grid-area: Main; }
+
+.grid-container-Content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3fr 1.7fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Header"
+    "Content";
+    height: 100%;
+  
+}
+.Header { grid-area: Header;
+  display: flex;
+  flex-direction: row;
+  border-bottom:2px solid #DADADA;  
+  padding: 15px
+  
+}
+#Content { 
+  grid-area: Content; 
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+  
+  .image-web{
+    padding: 10%;
+  }
+  .header-web{
+    display: inline-block;
+    flex-grow: 1;
+    align-self: center;
+  }
+  .test-class{
+    align-self: center;
+    display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid #B6B6B6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 477px;
+  }
+  .react-search-field-input{
+    border: 1px solid #B6B6B6;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  .react-search-field-button{
+    border: 1px solid #B6B6B6;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }  
+  .items{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    background: #FDFDFD;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    padding: 50px;
+    margin:40px;
+  }
+
+  .box-headers{
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .box-text{
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+  }
+ 
+  .eclipseRed{
+    z-index: -1;
+    position: absolute;
+    left: -22%;
+    top: -40%;
+  }
+  .eclipseOrange{
+    z-index: -1;
+    position: absolute;
+    left: -11%;
+    top: -24.5%;
+  }
+  .eclipseGreen{
+    z-index: -1;
+    position: absolute;
+    left: -11%;
+    top: -24.5%;
+  }

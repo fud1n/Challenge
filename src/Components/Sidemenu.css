@@ -1,0 +1,34 @@
+.sidebar{
+    padding-top: 15%;
+    flex-grow: 1;
+    padding-top: 60%;
+}
+.Navigation-Header > img{
+    display: inline-block;
+    margin-left: 5%;
+    margin-bottom: 2%;
+} 
+
+.Navigation-Header > span{
+    display: inline-block;
+    margin-left: 5%;
+
+} 
+
+.Navigation-Footer > img{
+    display: inline-block;
+    margin-left: 5%;
+    
+} 
+
+.Navigation-Footer > span{
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+
+} 
+
+.settings{
+    border-top:2px solid #DADADA; ;
+ 
+}
